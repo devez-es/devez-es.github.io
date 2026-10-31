@@ -10,26 +10,36 @@
 <body>
 <header><div class="wrap"><nav>
   <a class="brand" href="index.html">&lt;/&gt; DevEs</a>
-  <a href="index.html">Inicio</a>
+  <a href="ruta-30-dias.html">Ruta 30 días</a>
   <a href="recursos.html">Recursos</a>
   <a href="sobre-mi.html">Sobre mí</a>
 </nav></div></header>
 
 <main class="wrap">
   <section class="hero">
-    <h1>Aprende a programar paso a paso, sin rodeos</h1>
-    <p>Tutoriales de programación e informática en español, con herramientas gratuitas. Un vídeo nuevo cada semana.</p>
-    <a class="btn" href="https://www.youtube.com/channel/UCRVRUMb5XPu11Z8uJwhnm0g?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete en YouTube</a>
+    <div>
+      <h1>Aprende a programar <span>paso a paso</span>, sin rodeos</h1>
+      <p>Tutoriales de programación e informática en español, con herramientas gratuitas. Un vídeo nuevo cada semana.</p>
+      <a class="btn" href="https://www.youtube.com/channel/UCRVRUMb5XPu11Z8uJwhnm0g?sub_confirmation=1" target="_blank" rel="noopener">Suscríbete en YouTube</a>
+      <a class="btn sec" href="ruta-30-dias.html">Ver la ruta de 30 días</a>
+    </div>
+    <div class="code" aria-hidden="true">
+      <div class="bar"><i></i><i></i><i></i></div>
+<pre><span class="c"># tu primer programa</span>
+<span class="k">def</span> <span class="f">saludar</span>(nombre):
+    <span class="k">return</span> <span class="s">f"Hola, {nombre}"</span>
+
+<span class="f">print</span>(saludar(<span class="s">"DevEs"</span>))
+<span class="c"># -&gt; Hola, DevEs</span></pre>
+    </div>
   </section>
 
   <h2>Por dónde empezar</h2>
   <div class="grid">
-    <div class="card"><h3>Ruta de 30 días</h3><p>Un plan para aprender a programar desde cero, semana a semana, sin pagar nada.</p></div>
-    <div class="card"><h3>Primer entorno</h3><p>Instala Python y VS Code en pocos minutos, en Windows o Linux.</p></div>
-    <div class="card"><h3>Tu primera web</h3><p>HTML, CSS y cómo publicarla gratis con GitHub Pages.</p></div>
+    <a class="card" href="ruta-30-dias.html"><span class="ico">🗺️</span><h3>Ruta de 30 días</h3><p>Un plan para aprender a programar desde cero, semana a semana, sin pagar nada.</p></a>
+    <a class="card" href="recursos.html"><span class="ico">🧰</span><h3>Herramientas gratuitas</h3><p>VS Code, Python, Git y OBS: lo que necesitas para empezar hoy.</p></a>
+    <a class="card" href="https://www.youtube.com/channel/UCRVRUMb5XPu11Z8uJwhnm0g" target="_blank" rel="noopener"><span class="ico">▶️</span><h3>Los vídeos</h3><p>Todos los tutoriales en el canal de YouTube, con voz y código en pantalla.</p></a>
   </div>
-
-  <p>Los vídeos están en el <a href="https://www.youtube.com/channel/UCRVRUMb5XPu11Z8uJwhnm0g" target="_blank" rel="noopener">canal de YouTube</a>. En <a href="recursos.html">Recursos</a> tienes las herramientas y cursos que recomiendo.</p>
 
   <p class="aviso">Algunos enlaces de esta web son de afiliado. Si compras a través de ellos, me ayudas a mantener el canal sin coste extra para ti.</p>
 </main>
