@@ -97,3 +97,8 @@ header.oculto{transform:translateY(-110%)}
 .page th{background:#0f1f26}
 .page mark{background:#c9ab7233;color:#f1dcae;padding:0 4px;border-radius:3px}
 .page .nota{border-left:3px solid var(--cyan);padding-left:14px;color:var(--muted);font-size:.92rem}
+/* ==== v5 ==== */
+.brand{display:inline-flex;align-items:center;gap:10px}
+.brand .logo{width:38px;height:38px;border-radius:50%;box-shadow:0 0 0 1px #ffffff26,0 4px 14px #00000066;flex:none}
+nav .brand{letter-spacing:.3px}
+.foot .brand .logo{width:34px;height:34px}
