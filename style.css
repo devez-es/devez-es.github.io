@@ -48,3 +48,52 @@ h2{margin:48px 0 8px;font-size:1.7rem}
 .step b{color:var(--cyan)}
 footer{padding:32px 0;color:var(--muted);font-size:.9rem;border-top:1px solid #ffffff12;margin-top:56px}
 @media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:40px}.btn.sec{margin:14px 0 0 12px}}
+
+/* ==== v4 ==== */
+header{transition:transform .35s ease}
+header.oculto{transform:translateY(-110%)}
+@media(prefers-reduced-motion:reduce){header{transition:none}}
+.btn.rect{color:#04121a;text-shadow:none;padding:12px 26px;margin-top:4px}
+.btn.rect::before{opacity:1}
+.btn.rect::after{transform:none;border-radius:10px;border:1px solid transparent;background:linear-gradient(90deg,#5ec2b7,#7fb8e6);box-shadow:0 6px 20px #5ec2b738}
+.btn.rect:hover{color:#04121a;text-shadow:none}
+.btn.rect:hover::after{border-color:transparent;box-shadow:0 8px 26px #5ec2b766;filter:brightness(1.1)}
+.foot{display:grid;gap:28px;grid-template-columns:1.4fr 1fr 1fr 1fr}
+.foot h4{margin:0 0 10px;font-size:.78rem;letter-spacing:1.6px;text-transform:uppercase;color:var(--text);font-family:Consolas,monospace}
+.foot a{display:block;color:var(--muted);text-decoration:none;padding:3px 0;font-size:.92rem}
+.foot a:hover{color:var(--cyan)}
+.foot p{color:var(--muted);font-size:.9rem;margin:0 0 8px}
+.foot .brand{font-family:Consolas,monospace;font-weight:700;font-size:1.25rem;color:var(--text);margin-bottom:8px}
+.legal-bar{margin-top:28px;padding-top:18px;border-top:1px solid #ffffff12;display:flex;gap:8px 24px;flex-wrap:wrap;justify-content:space-between;color:var(--muted);font-size:.85rem}
+@media(max-width:760px){.foot{grid-template-columns:1fr 1fr}}
+.ck-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:50;max-width:780px;margin:0 auto;background:#0b1a20f5;border:1px solid #5ec2b755;border-radius:12px;padding:18px 20px;box-shadow:0 20px 60px #000000b0}
+.ck-banner h2{margin:0 0 6px;font-size:1.1rem}
+.ck-banner h2::after{display:none}
+.ck-banner p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.55}
+.ck-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.ck-btn{font:inherit;font-size:.92rem;cursor:pointer;padding:10px 18px;border-radius:8px;border:1px solid #7fb8e6;background:transparent;color:#7fb8e6;font-weight:600}
+.ck-btn:hover{border-color:#40e0d0;color:#40e0d0}
+.ck-btn.pri{background:linear-gradient(90deg,#5ec2b7,#7fb8e6);border-color:transparent;color:#04121a}
+.ck-btn.pri:hover{filter:brightness(1.1);color:#04121a}
+.ck-overlay{position:fixed;inset:0;z-index:60;background:#000000b0;display:flex;align-items:center;justify-content:center;padding:16px}
+.ck-modal{max-width:640px;width:100%;max-height:90vh;overflow:auto;background:#0b1a20;border:1px solid #ffffff22;border-radius:14px;padding:24px;box-shadow:0 30px 80px #000000c0}
+.ck-modal h2{margin:0 0 8px;font-size:1.3rem}
+.ck-modal h2::after{display:none}
+.ck-modal p{color:var(--muted);font-size:.92rem;margin:0 0 8px}
+.ck-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;padding:14px 0;border-top:1px solid #ffffff14}
+.ck-row strong{display:block;margin-bottom:2px}
+.ck-row span{color:var(--muted);font-size:.88rem}
+.ck-sw{flex:none;width:46px;height:26px;appearance:none;-webkit-appearance:none;background:#2a3b42;border-radius:13px;position:relative;cursor:pointer;border:1px solid #ffffff22;transition:background .2s}
+.ck-sw::after{content:"";position:absolute;top:2px;left:2px;width:20px;height:20px;border-radius:50%;background:#e6eef0;transition:transform .2s}
+.ck-sw:checked{background:#5ec2b7}
+.ck-sw:checked::after{transform:translateX(20px)}
+.ck-sw:disabled{opacity:.6;cursor:not-allowed}
+.ck-sw:focus-visible,.ck-btn:focus-visible{outline:2px solid #40e0d0;outline-offset:2px}
+.embed-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:14px;background:#0a161b;color:var(--muted);font-size:.85rem;line-height:1.45}
+.embed-ph a{color:var(--cyan)}
+.page h2{font-size:1.35rem;margin:34px 0 8px}
+.page table{border-collapse:collapse;width:100%;font-size:.9rem;margin:12px 0}
+.page th,.page td{border:1px solid #ffffff1f;padding:8px 10px;text-align:left;vertical-align:top}
+.page th{background:#0f1f26}
+.page mark{background:#c9ab7233;color:#f1dcae;padding:0 4px;border-radius:3px}
+.page .nota{border-left:3px solid var(--cyan);padding-left:14px;color:var(--muted);font-size:.92rem}
