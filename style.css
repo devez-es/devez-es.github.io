@@ -13,12 +13,12 @@ nav a:hover{color:var(--cyan)}
 .hero h1{font-size:clamp(2rem,5vw,3.2rem);margin:0 0 14px;line-height:1.1}
 .hero h1 span{background:linear-gradient(90deg,var(--cyan),var(--magenta));-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero p{color:var(--muted);font-size:1.15rem;margin:0 0 26px}
-.btn{display:inline-block;padding:11px 22px;border-radius:2px;background:#020a06;color:#3dff8f;font-family:Consolas,"Courier New",monospace;font-weight:700;font-size:.95rem;letter-spacing:.6px;text-decoration:none;border:1px solid #3dff8f;box-shadow:0 0 14px #3dff8f30,inset 0 0 12px #3dff8f14;text-shadow:0 0 8px #3dff8f90;transition:background .15s,color .15s,box-shadow .15s}
+.btn{display:inline-block;padding:11px 22px;border-radius:2px;background:#020a0e;color:#7fb8e6;font-family:Consolas,"Courier New",monospace;font-weight:700;font-size:.95rem;letter-spacing:.6px;text-decoration:none;border:1px solid #7fb8e6;box-shadow:0 0 14px #7fb8e630,inset 0 0 12px #7fb8e614;text-shadow:0 0 8px #7fb8e690;transition:background .15s,color .15s,box-shadow .15s,border-color .15s}
 .btn::before{content:"> ";opacity:.8}
-.btn:hover{background:#3dff8f;color:#020a06;text-shadow:none;box-shadow:0 0 24px #3dff8f80}
+.btn:hover{background:#40e0d0;border-color:#40e0d0;color:#020a0e;text-shadow:none;box-shadow:0 0 24px #40e0d080}
 .btn:hover::after{content:"_";animation:blink 1s steps(1) infinite}
-.btn.sec{background:#020a06;color:#a8f0c6;border:1px solid #3dff8f66;box-shadow:none;text-shadow:none;margin-left:10px}
-.btn.sec:hover{background:#3dff8f;color:#020a06;border-color:#3dff8f}
+.btn.sec{background:#020a0e;color:#bcd9f0;border:1px solid #7fb8e666;box-shadow:none;text-shadow:none;margin-left:10px}
+.btn.sec:hover{background:#40e0d0;color:#020a0e;border-color:#40e0d0}
 @keyframes blink{50%{opacity:0}}
 .code{background:#08141a;border:1px solid #ffffff1f;border-radius:10px;box-shadow:0 20px 60px #000000a0,0 0 40px #5ec2b714;overflow:hidden;font-family:Consolas,monospace;font-size:.92rem}
 .code .bar{display:flex;gap:7px;padding:10px 14px;background:#0f1f26}
