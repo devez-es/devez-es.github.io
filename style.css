@@ -16,6 +16,8 @@ nav a:hover{color:var(--cyan)}
 .btn{position:relative;isolation:isolate;display:inline-block;padding:11px 30px;background:transparent;border:0;color:#7fb8e6;font-family:Consolas,"Courier New",monospace;font-weight:700;font-size:.95rem;letter-spacing:.6px;text-decoration:none;text-shadow:0 0 8px #7fb8e690;transition:color .15s,text-shadow .15s}
 .btn::after{content:"";position:absolute;inset:0;z-index:-1;background:#020a0e;border:1px solid #7fb8e6;transform:skewX(-16deg);box-shadow:0 0 14px #7fb8e630,inset 0 0 12px #7fb8e614;transition:border-color .15s,box-shadow .15s}
 .btn::before{content:"> ";opacity:.8}
+.btn.rect::after{transform:none}
+.btn.rect{padding:11px 26px}
 .btn:hover{color:#40e0d0;text-shadow:0 0 10px #40e0d0aa}
 .btn:hover::before{content:">_"}
 .btn:hover::after{border-color:#40e0d0;box-shadow:0 0 18px #40e0d050,inset 0 0 12px #40e0d018}
