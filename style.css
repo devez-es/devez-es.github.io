@@ -102,3 +102,16 @@ header.oculto{transform:translateY(-110%)}
 .brand .logo{width:38px;height:38px;border-radius:50%;box-shadow:0 0 0 1px #ffffff26,0 4px 14px #00000066;flex:none}
 nav .brand{letter-spacing:.3px}
 .foot .brand .logo{width:34px;height:34px}
+
+/* ==== v6 (portada más larga) ==== */
+.faq{display:grid;gap:10px;margin:18px 0}
+.faq details{background:linear-gradient(180deg,#0f2128,#0a161b);border:1px solid #ffffff1a;border-radius:10px;padding:14px 18px}
+.faq summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--cyan);font-weight:700;font-size:1.2rem;line-height:1}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{margin:10px 0 0;color:var(--muted);line-height:1.55}
+.faq details a{color:var(--cyan)}
+.cta{margin:48px 0 20px;padding:36px 24px;text-align:center;border:1px solid #ffffff1a;border-radius:14px;background:radial-gradient(120% 140% at 50% 0,#12303a 0,#0a161b 70%)}
+.cta h2{margin-top:0}
+.cta p{color:var(--muted);max-width:560px;margin:8px auto 20px}
